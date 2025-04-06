@@ -212,3 +212,69 @@ body {
     font-family: sans-serif;
     padding: 5px;
 }
+
+/*CADASTRO*/
+.cadastro {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    width: 100%;
+    background-image: url(../assets/imgs/bg-jelly-fish-para_outras_pags.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.cadastro .container {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #dcdcdc;
+    border-radius: 20px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: #e4005a;
+    padding: 20px;
+    width: 600px;
+    height: 500px;
+}
+
+.cadastro .container .formulario {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+
+.cadastro .container .formulario .campo {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.cadastro .container .formulario .campo input {
+    width: 550px;
+    height: 35px;
+    margin-bottom: 15px;
+    border: 2px solid var(--azul);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.cadastro .container .formulario button {
+    background-color: #e4005a;
+    border: #e4005a solid 2px;
+    border-radius: 6px;
+    width: 120px;
+    height: 35px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 5px;
+}
